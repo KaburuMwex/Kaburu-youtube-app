@@ -1,33 +1,47 @@
-.App {
-  text-align: center;
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Saira Stencil One', cursive;
+*/
+body{
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+.welcome{
+    padding: 10px;
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+.input{
+    width: 300px !important;
+    background: #006666 !important;
+    color: aliceblue !important;
+}
+.img-container{
+    position:relative;
+    overflow:hidden;
+}
+.card-img-top{
+    transition:all 1s linear;
+}
+.img-container:hover .card-img-top{
+    transform:scale(1.2);
+    z-index: 2 !important;
+    offset-distance: 10px;
+    display: block;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+.searchbar{
+    background: #006666 !important;
+    width: 100%;
+    border-radius: 10px;
+    
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.videodetail{
+    margin-top: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.videolist{
+    margin-top: 40px;
 }
